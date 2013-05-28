@@ -5,7 +5,8 @@
     "lib"
   ],
   "dependencies": {
-    "shred": "0.8.8"
+    "shred": "0.8.8",
+    "png.js": "*"
   },
   "devDependencies": {
   },
