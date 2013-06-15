@@ -19,7 +19,7 @@ class Image
 
   _binaryValue: (png, x,y)->
     [red, blue, green, alpha] = png.getPixel(x,y)
-    if red + blue + green > 366
+    if red + blue + green > 300
       return 0
     else
       return 1
